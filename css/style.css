@@ -1,0 +1,128 @@
+body{
+  position: absolute;
+  top: 0;
+  bottom:0;
+  background-color: #883D61;
+}
+
+header{
+  background-color: #661141;
+  text-align: center;
+  width: 100vw;
+  height: 200px;
+  margin-top: -2%;
+  display:none;
+}
+
+header h1 {
+  color: #CD88AF;
+  padding-top: 8%;
+  vertical-align: middle;
+}
+
+.sideBar{
+  width: 20%;
+  float:left;
+  border: 1px solid black;
+  background-color: #661141;
+  text-align:center;
+  padding-top:10%;
+  height:auto;
+  height:100%;
+  display:none;
+}
+.sideBar li{
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+  border: 2px dashed rgba(205, 136, 175, 0.7);
+}
+
+.sideBar h4{
+  color:rgba(205, 136, 175, 0.7);
+}
+.sideBar h4:hover{
+  color:#440027;
+}
+
+ul{
+  padding-left:0%;
+
+}
+
+.albumSelect {
+  list-style-type: none;
+}
+
+section{
+  display:inline-block;
+/*   width: 80%;  This will be changed when you select a photo album*/
+  width:100%;    /*this property is only valid when you are in the main menu*/
+  text-align:center;
+  padding-top: 2%;
+}
+
+.partial{
+  width:80%;
+}
+
+.albums{
+  padding-top: 10%;
+  list-style-type: none;
+  display:none;
+}
+
+section h1{
+  color:#661141;
+  font-weight: bolder;
+  display:none;
+}
+
+
+section li{
+  display:inline-block;
+  text-align: center;
+  width: 30%;
+  height:200px;
+  padding: 20px;
+}
+section h2{
+  color:#661141;
+}
+section h2:hover{
+  color:rgba(205, 136, 175, 0.7);
+}
+
+section img{
+  height: 180px;
+}
+
+.active{
+  display:block;
+}
+
+#overlay{
+  background:rgba(213, 213, 213, 0.7);
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay button{
+  float:left;
+  margin-top: 10%;
+  margin-left:10%;
+}
+#overlay img{
+  margin-top: 15%;
+  margin-left:-20%;
+  border:3px solid #4C0017;
+
+}
+
+#overlay h2{
+  color: #721330;
+}

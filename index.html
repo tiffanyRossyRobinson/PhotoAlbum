@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Photo Album</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  <script type="html/template" id="imgTmpl">
+      <li><a href=<%= nameHref %> name=<%= Name %> class=<%= nClass %>> <img src=<%= nameSrc %> width= "100" alt=<%= nameAlt %> /><h2><%=nameH2 %></h2></a></li>
+
+  </script>
+
+</head>
+<body>
+  <header class="active">
+      <h1>My Photo Album </h1>
+  </header>
+
+
+  <aside class="sideBar">
+    <ul class="albumSelect">
+      <li><a href="#" name = "Home"><h4>Home</h4></a></li>
+      <li><a href="css/athena" name = "Athena"><h4>Athena</h4></a></li>
+      <li><a href="css/Ginger" name = "Ginger"><h4>Ginger</h4></a></li>
+      <li><a href="css/Sisters" name = "Sisters"><h4>Sisters</h4></a></li>
+      <li><a href="css/RobinsonFamily" name= "RobinsonFamily"><h4>Robinson Family</h4></a></li>
+      <li><a href="css/family" name="family"><h4>Family</h4></a></li>
+      <li><a href="css/BalloonFest" name="BalloonFest"><h4>Balloon Fest</h4></a></li>
+    </ul>
+  </aside>
+
+  <section>
+      <h1> Album One </h1>
+      <ul class="albums active">
+          <li><a href="css/athena" name="Athena" class="album"> <img src="css/athena/one.jpg" width= "100" alt="Athena at Vanessa's Wedding"/><h2>Athena</h2></a></li>
+          <li><a href="css/Ginger" name="Ginger" class="album"> <img src="css/Ginger/one.jpg" width= "100" alt="Athena at Vanessa's Wedding"/><h2>Ginger</h2></a></li>
+          <li><a href="css/Sisters" name="Sisters"  class="album"> <img src="css/Sisters/one.jpg" width= "100" alt="Athena at Vanessa's Wedding"/><h2>Sisters</h2></a></li>
+          <li><a href="css/RobinsonFamily" name="Robinsons"  class="album"> <img src="css/RobinsonFamily/one.jpg" width= "100" alt="Athena at Vanessa's Wedding" /><h2>Robinsons</h2></a></li>
+          <li><a href="css/family" name="family"  class="album"> <img src="css/family/one.jpg" width= "100" alt="Athena at Vanessa's Wedding"/><h2>Family</h2></a></li>
+          <li><a href="css/BalloonFest" name="BalloonFest"  class="album"> <img src="css/BalloonFest/one.jpg" width= "100" alt="Athena at Vanessa's Wedding"/><h2>BalloonFest</h2></a></li>
+      <ul>
+  </section>
+
+
+   <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+   <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+   <script type="text/javascript" src="data.js"></script>
+   <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

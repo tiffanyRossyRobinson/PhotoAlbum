@@ -1,0 +1,25 @@
+{
+  "name": "photoAlbum",
+  "version": "0.0.0",
+  "authors": [
+    "tiffanyRossyRobinson <trossys@gmail.com>"
+  ],
+  "keywords": [
+    "jquery",
+    "undescore",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}
